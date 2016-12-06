@@ -1,0 +1,32 @@
+PODS:
+  - AsyncDisplayKit (2.0-rc.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.0-rc.1)
+  - AsyncDisplayKit/Core (2.0-rc.1)
+  - AsyncDisplayKit/PINRemoteImage (2.0-rc.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.6)
+    - PINRemoteImage/PINCache
+  - PINCache (3.0.1-beta.2):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
+    - PINCache/Core (= 3.0.1-beta.2)
+  - PINCache/Arc-exception-safe (3.0.1-beta.2):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.2)
+  - PINRemoteImage/Core (3.0.0-beta.6)
+  - PINRemoteImage/iOS (3.0.0-beta.6):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.6):
+    - PINCache (= 3.0.1-beta.2)
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - AsyncDisplayKit (>= 2.0-rc.1)
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: bd1d54ec70644ab235bcca899644d2129d5d06df
+  PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
+  PINRemoteImage: 60156f185c9360ca4e93832cd490d6f6c7afbd9a
+
+PODFILE CHECKSUM: 040ec8c0674c645a3d5b2e20d13a08dc24db25b5
+
+COCOAPODS: 1.1.1
